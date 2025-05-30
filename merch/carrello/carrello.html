@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="carrello.css">
+        <script src="carrello.js"></script>
+        <title>carrello.riotgames</title>
+    </head>
+    <body>
+        <div>
+            <div id="intestazione" class="intestazione">
+                <div> <a href="../merch.html"><img src="riotlogo.png" class="riotLogo"></a></div>
+                <div><a href="carrello.html"><img src="carrello.png" class="carrello"></a> </div>
+            </div>
+        </div>
+        <div class="elementi">
+            <div>
+                <p id="elementicarrello" class="elementicarrello">Carrello (0)</p>
+            </div>
+            <div>
+                <div class="prodotto">Prodotto</div>
+                <div class="prezzo">Prezzo</div>
+            </div>
+        </div>
+        <div id="fondo">
+            <div>
+                <button class="rimuovitutti" onclick="svuotacarrello()">Rimuovi tutti gli elementi</button>
+            </div>
+        </div>
+        <div class="tendinadx">
+            <div class="tendinadxcont">
+                <p class="subtotaletxt">Subtotale</p>
+                <p id="subtotale" class="subtotale">0</p>
+                <p><button id="pagamento" class="pagamento" onclick="pagamento()">Pagamento</button></p>
+            </div>
+        </div>
+    </body>
+</html>

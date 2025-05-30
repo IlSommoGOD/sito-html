@@ -1,0 +1,236 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+body{
+    /*overflow-x: hidden;*/
+    margin: 0;
+    padding: 0;
+    
+}
+.intestazione{
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+.sfondobianco{
+    background-color: white;
+}
+.menu{
+    background-color: #f9f9f900;
+    border: #f9f9f900;
+}
+.riotLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 69px;
+}
+.riotLogo:hover{
+    cursor: pointer;
+}
+.tendina{
+    display: none;
+    position:absolute;
+    width: 100%;
+    background-color: white;
+    height: 500px;
+    top: 69px;
+}
+.show {
+    display: block;
+}
+.tendinasx{
+    width: 50%;
+}
+.elenco1{
+    position: absolute;
+    width: 15%;
+    left: 1%;
+}
+.elenco2{
+    position: absolute;
+    top: 0%;
+    width: 15%;
+    left: 16%;
+}
+.elenco3{
+    position: absolute;
+    top: 0%;
+    width: 15%;
+    left: 31%;
+}
+.separatoretendina{
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgba(206, 199, 199, 0.201);
+}
+.bottonetendina{
+    text-align: left;
+    border-radius: 5px;
+    border-color: #00000000;
+    background-color: #00000000;
+    width: 90%;
+}
+.bottonetendina:hover{
+    background-color: rgba(206, 199, 199, 0.485);
+}
+.img1{
+    position: absolute;
+    height: auto;
+    border-radius: 5px;
+    bottom: 50%;
+    width: 25%;
+    right: 1%;
+    
+}
+.img2{
+    position: absolute;
+    height: auto;
+    border-radius: 5px;
+    bottom: 50%;
+    right: 27%;
+    width: 25%;
+}
+.descrizionegioco1{
+    position: absolute;
+    top: 55%;
+    width: 25%;
+    right: 1%;
+}
+.descrizionegioco2{
+    position: absolute;
+    top: 55%;
+    right: 27%;
+    width: 25%;
+
+}
+.centro{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.overlay1 {
+    position: absolute;
+    top: 25%;
+}
+.signup{
+    position: absolute;
+    left: 25%;
+}
+.overlay2 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    font-size: x-large;
+}
+.gioca{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    left: 10%;
+}
+.dettagli{
+    width: 200px;
+    height: 69px;
+    background-color: burlywood;
+    font-size: large;
+    justify-self: left;
+}
+.formato{
+    color: rgb(200, 170, 110);
+    font-size: small;
+}
+.titoletto{
+    font-size:larger;
+    font-weight: bold;
+}
+.descrizione{
+    font-size: large;
+}
+.champselect{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: -250px;
+    height: 1000px;
+}
+.champselector{
+    position: relative;
+    height: 30%;
+    width: 50%;
+    left: 0%;
+}
+.champchanger{
+    position: relative;
+    height: 30%;
+    width: 50%;
+    left: 50%;
+    top: -5%;
+}
+.championimg{
+    position: absolute;
+    width:  100%;
+    height: auto;
+    left: 0%;
+    bottom: 0%;
+}
+.champname{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+
+}
+.scopri{
+    width: 300px;
+    height: 69px;
+    background-color: burlywood;
+    font-size: large;
+    margin: 20px;
+}
+.giocablu{
+    width: 150px;
+    height: 69px;
+    background-color: cadetblue;
+    font-size: large;
+    margin: 20px;
+}
+.titolocorisvo{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+.align{
+    text-align: center;
+}
+.evidenza{
+    background-color: gainsboro;
+    margin-top: -50px;
+    z-index: -1;
+}
+.notizie{
+    width:100%;
+    overflow-x:  scroll; 
+    display: inline-block;
+    text-align: center;
+    height: 450px;
+}
+.listaFondo{
+    background-color: rgb(41, 41, 41);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+.scrittaFondo{
+    display: block;
+    padding: 32px 16px;
+    text-decoration: none;
+    color: #f9f9f9;
+    transition: all .2s linear;
+}

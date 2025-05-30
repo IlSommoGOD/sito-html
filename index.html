@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <script src="script.js"></script>
+        <title>League of Legends</title>
+    </head>
+    <body>
+        <div id="intestazione" class="intestazione">
+            <button class="menu" onclick="mostratendina()"><img src="riotlogo.png" class="riotLogo"></button>
+            <div id="tendina" class="tendina">
+                <div class="tendinasx">
+                    <div class="elenco1">
+                        <p class="separatoretendina">GIOCHI</p>
+                        <p><button class="bottonetendina">LEAGUE OF LEGENDS</button></p>
+                        <p><button class="bottonetendina">VALORANT</button></p>
+                        <p><button class="bottonetendina">TEAMFIGHT TACTICS</button></p>
+                        <P><button class="bottonetendina">LEGENDS OF RUNETERRA</button></P>
+                        <P><button class="bottonetendina">LOL: WILD RIFT</button></P>
+                    </div>
+                    <div class="elenco2">
+                        <p class="separatoretendina">FORGE</p>
+                        <p><button class="bottonetendina">HEXTECH MAYHEM</button></p>
+                        <p><button class="bottonetendina">THE  MAGESEEKER</button></p>
+                        <p><button class="bottonetendina">RUINED KING</button></p>
+                        <P><button class="bottonetendina">CONVERGENCE</button></P>
+                        <P><button class="bottonetendina">SONG OF NUNU</button></P>
+                        <P><button class="bottonetendina">RIOT FORGE GAMES</button></P>
+                        <p class="separatoretendina">ESPORT</p>
+                        <p><button class="bottonetendina">ESPORT DI LOL</button></p>
+                        <p><button class="bottonetendina">ESPORT DI VALORANT</button></p>
+                    </div>
+                    <div class="elenco3">
+                        <p class="separatoretendina">INTRATTENIMENTO</p>
+                        <p><button class="bottonetendina">ARCANE</button></p>
+                        <p><button class="bottonetendina">UNIVERSO</button></p>
+                        <p><button class="bottonetendina">RIOT GAMES MUSIC</button></p>
+                        <p class="separatoretendina">AZIENDA</p>
+                        <p><button class="bottonetendina">RIOT GAMES</button></p>
+                        <p><a href="merch/merch.html"><button class="bottonetendina" >MERCHANDISE DI RIOT</button></a></p>
+                        <p><button class="bottonetendina">RIOT MOBILE</button></p>
+                        <p><button class="bottonetendina">SUPPORTO RIOT</button></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="img1" src="valorant.jpeg">
+                    </div>
+                    <div>
+                        <img class="img2" src="runeterra.jpeg">
+                    </div>
+                    <div>
+                        <p class="descrizionegioco1">Quando la creatività è l'arma più temibile, ogni round è un'opportunità per la grandezza. Lascia il segno durante la beta per la versione console di VALORANT.</p>
+                    </div>
+                    <div>
+                        <p class="descrizionegioco2">Nuova espansione di Legends of Runeterra: Sogni di luce</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="centro">
+            <video autoplay loop muted class="video1">
+                <source src="sfondo.webm" type="video/webm">
+            </video>
+            <div class="overlay1">
+                <p><img src="logoLoL.png"></p>
+                <p  class="signup"><button id="gioca" class="gioca" onclick="gioca()">GIOCA GRATIS</button></p>
+            </div>
+        </div>
+        <div class="centro">
+            <div>
+                <img src="arena.webp"></img>
+            </div>
+            <div class="overlay2">
+                <p><h3>Modalità di gioco</h3></p>
+                <p><h2>ENTRATE NELL'ARENA</h2></p>
+                <p>Potenti oggetti, una nuova mappa e il doppio delle squadre: Arena è tornata più grandiosa che mai.</p>
+                <p><button id="DETTAGLI" onclick="dettagliArena()" class="dettagli">DETTAGLI</button></p>
+            </div>
+        </div>
+        <div class="evidenza">
+            <div>
+                <p><h2><br><br><br>&#160 &#160 &#160NOTIZIE IN EVIDENZA</h2></p>
+            </div>
+            <div class="notizie">
+                <table>
+                    <tr>
+                        <td width=20%><a href="https://www.leagueoflegends.com/it-it/news/game-updates/patch-14-9-notes/"><img src="notizia1.webp"></a>
+                        <td width=20%><a href="https://www.youtube.com/watch?v=SEuNiFRKaDg"><img src="notizia2.webp"></a>
+                        <td width=20%><a href="https://www.leagueoflegends.com/it-it/news/dev/dev-arena/"><img src="notizia3.webp"></a>
+                    </tr>
+                    <tr>
+                        <td width=20%><span class="formato">AGGIORNAMENTI DI GIOCO</span>  |  <span class="data">2 mesi fa</span>
+                        <td width=20%><span class="formato">ESPORT</span>  |  <span class="data">2 mesi fa</span>
+                        <td width=20%><span class="formato">DEV</span>  |  <span class="data">12 mesi fa</span>
+                    </tr>
+                    <tr>
+                        <td width=20%><p class="titoletto">Note sulla patch 14.9</p>
+                        <td width=20%><p class="titoletto">Spiegazione formato MSI 2024</p>
+                        <td width=20%><p class="titoletto">/dev Arena</p>
+                    </tr>
+                    <tr>
+                        <td width=20%><p class="descrizione">Preparatevi per l'MSI, Arena e la patch 14.9!</p>
+                        <td width=20%><p class="descrizione">Qualificazioni, eliminatorie e altro ancora</p>
+                        <td width=20%><p class="descrizione">Una panoramica della nuova modalità di gioco di LOL</p>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="champselect">
+            <div class="champselector">
+                <div>
+                    <div>
+                        <p>SCEGLI UN</p>
+                    </div>
+                    <div>
+                        <p class="titolocorisvo">CAMPIONE</p>
+                    </div>
+                    <div>
+                        <p>Se preferisci gettarti nella mischia, supportare i tuoi compagni di squadra o trovare una via di mezzo, sulla Landa c'è sempre un posto per te.</p>
+                    </div>
+                </div>
+                <div>
+                    <p><a href="Champions/champions.html"><button class="scopri" id="discoverchampions">SCOPRI ALTRI CAMPIONI</button></a></p>
+                </div>
+                <div>
+                    <p><button class="giocablu">GIOCA ORA</button></p>
+                </div>
+                <div>
+                    <p>
+                        <button onclick="cambiacampione('AKALI')"><p><img src="assassinico.webp"></p>ASSASSINI</button>
+                        <button onclick="cambiacampione('YASUO')"><p><img src="fighterico.webp"></p>COMBATTENTI</button>
+                        <button onclick="cambiacampione('LUX')"><p><img src="mageico.webp"></p>MAGHI</button>
+                        <button onclick="cambiacampione('JINX')"><p><img src="marksmanico.webp"></p>TIRATORI</button>
+                        <button onclick="cambiacampione('THRESH')"><p><img src="supportico.webp"></p>SUPPORTI</button>
+                        <button onclick="cambiacampione('LEONA')"><p><img src="tankico.webp"></p>TANK</button>
+                    </p>
+                </div>
+            </div>
+            <div class="champchanger">
+                <div>
+                    <p><img id="immaginecampione" class="championimg" src="akali.webp"></p>
+                </div>
+                <div class="champname">
+                    <div>
+                        <p id="nome">AKALI</p>
+                    </div>
+                    <div>
+                        <p id="descrizione">L'assassina solitaria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="align">
+                <p> MORE TO</p>
+                <p class="titolocorisvo">DISCOVER</p>
+            </div>
+            <div class="notizie">
+                <table>
+                    <tr>
+                        <td width=20%><a href="https://www.youtube.com/watch?v=FkbUdOabzWw"><img src="discover2.webp"></a>
+                        <td width=20%><a href="https://lolesports.com/live/lec"><img src="disocver1.webp"></a>
+                    </tr>
+                    <tr>
+                        <td width=20%><span class="formato">ESPORT</span>  |  <span class="data">mese scorso</span>
+                        <td width=20%><span class="formato">ESPORT</span>  |  <span class="data">5 mesi fa</span>
+                    </tr>
+                    <tr>
+                        <td width=20%><p class="titoletto">MSI 2024 Play-int Stage Opening Tease</p>
+                        <td width=20%><p class="titoletto">LEC 2024 - SUN</p>
+                    </tr>
+                    <tr>
+                        <td width=20%><p class="descrizione">It's time to Enter the Unknown. MSI 2024 kicks off today!</p>
+                        <td width=20%><p class="descrizione">Sintonizzati per imparare dai migliori al mondo su watch.lolesports.com.</p>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
+            <ul class="listaFondo">
+                <li> <a href="https://www.leagueoflegends.com/it-it/how-to-play/" class="scrittaFondo">LEAGUE OF LEGENDS</a></li>
+                <li> <a href="http://leagueoflegends.eu-surveyit2.sgizmo.com/s3/" class="scrittaFondo">AIUTACI A MIGLIORARE</a></li>
+                <li> <a href="https://status.riotgames.com/?locale=it_IT" class="scrittaFondo">STATUS SERVER</a></li>
+                <li> <a href="https://support.riotgames.com/hc/it" class="scrittaFondo">SUPPORTO</a></li>
+                <li> <a href="https://lolesports.com" class="scrittaFondo">SITO ESPORT PROFESSIONALE</a></li>
+                <li> <a href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&referrer=singular_click_id%3Da2a47931-a371-4eff-ac42-23da2d9d99ab&pli=1" class="scrittaFondo">SCARICA L'APP PER DISPOSITIVI MOBILI RIOT MOBILE</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+
+body{
+    /*overflow-x: hidden;*/
+    margin: 0;
+    padding: 0;
+    
+}
+.intestazione{
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+.riotLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 69px;
+}
+.carrello{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 9px;
+    height: 50px;
+}
+.rigaprodotti1{
+    top: 100px;
+    padding: 10px;
+    position: relative;
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+}
+.rigaprodotti2{
+    top: 100px;
+    position: relative;
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+}
+.prodotto1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 24;
+}
+.prodotto2{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    width: 24%;
+}
+.prodotto3{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 24%;
+}
+.prodotto4{
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 24%;
+}
+.immagineprodotto{
+    height: 100%;
+    background-color: rgba(186, 182, 182, 0.321);
+}

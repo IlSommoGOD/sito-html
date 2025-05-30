@@ -1,0 +1,146 @@
+body{
+    /*overflow-x: hidden;*/
+    margin: 0;
+    padding: 0;
+    
+}
+.intestazione{
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+.riotLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 69px;
+}
+.carrello{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 9px;
+    height: 50px;
+}
+.elementi{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    width: 69%;
+}
+.elementicarrello{
+    position: absolute;
+    left: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.prodotto{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+
+}
+.prezzo{
+    position: absolute;
+    top: 100px;
+    right: 15%;
+}
+.elemento{
+    position: relative;
+    left: 5%;
+    width: 59%;
+    min-height: 300px;
+    border-style: groove;
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.nome{
+    position: absolute;
+    top: 50px;
+    left: 32%;
+    max-width: 20%;
+}
+.costo{
+    position: absolute;
+    top: 50px;
+    right: 10%;
+}
+.immagine{
+    position: absolute;
+    top: 50px;
+    max-width: 30%;
+    background-color: gainsboro;
+}
+.costoword{
+    position: absolute;
+    left: 32%;
+    bottom: 25%;
+    font-size: large;
+}
+.costotendina{
+    position: absolute;
+    left: 32%;
+    bottom: 15%;
+}
+.cambiaquantita{
+    position: relative;
+    display: none;
+    left: 32%;
+    top: 256px;
+    z-index: 1;
+}
+.show {
+    display: block;
+}
+.rimuovi{
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+}
+.rimuovi:hover{
+    cursor: pointer;
+}
+.rimuovitutti{
+    position: relative;
+    bottom: 0%;
+    left: 15%;
+}
+.tendinadx{
+    position: fixed;
+    right: 0%;
+    width: 31%;
+    top: 69px;
+    background-color: gainsboro;
+    height: 100%;
+}
+.tendinadxcont{
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.subtotaletxt{
+    font-size: large;
+    font-weight: 690;
+}
+.subtotale{
+    font-size: larger;
+}
+.pagamento{
+    position: relative;
+    width: 69%;
+    height: 46px;
+    border-radius: 32px;
+    border-color: whitesmoke;
+    background-color: red;
+    color: whitesmoke;
+}
+.pagamento:hover{
+    cursor: pointer;
+}
