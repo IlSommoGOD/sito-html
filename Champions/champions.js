@@ -27,7 +27,6 @@ async function getdati(){
       } catch (error) {
         console.error({ error });
       }
-
     creapagina()
 
 }

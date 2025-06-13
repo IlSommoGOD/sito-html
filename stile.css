@@ -37,8 +37,8 @@ body{
     display: none;
     position:absolute;
     width: 100%;
-    background-color: white;
-    height: 500px;
+    background-color: #f9f9f9;
+    height: 400px;
     top: 69px;
 }
 .show {
@@ -84,8 +84,8 @@ body{
     height: auto;
     border-radius: 5px;
     bottom: 50%;
-    width: 25%;
-    right: 1%;
+    height: 44%;
+    left: 50%;
     
 }
 .img2{
@@ -93,8 +93,8 @@ body{
     height: auto;
     border-radius: 5px;
     bottom: 50%;
-    right: 27%;
-    width: 25%;
+    left: 77%;
+    height: 44%;
 }
 .descrizionegioco1{
     position: absolute;
@@ -113,6 +113,14 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
+}
+.video1 {
+    width: 100%;
+    height: auto;
+}
+.immaginearena{
+    width: 100%;
+    height: auto;
 }
 .overlay1 {
     position: absolute;
@@ -159,6 +167,8 @@ body{
     margin-top: 200px;
     margin-bottom: -250px;
     height: 1000px;
+    max-height: 960px;
+    top: 100px;
 }
 .champselector{
     position: relative;
@@ -166,25 +176,29 @@ body{
     width: 50%;
     left: 0%;
 }
-.champchanger{
+.champchanger {
     position: relative;
     height: 30%;
     width: 50%;
     left: 50%;
     top: -5%;
 }
-.championimg{
+
+.championimg {
     position: absolute;
-    width:  100%;
+    width: auto;
+    max-width: 80%;       /* Riduci leggermente la larghezza */
     height: auto;
-    left: 0%;
-    bottom: 0%;
+    left: 50%;            /* Posiziona al 50% */
+    bottom: 50px;         /* Regola in base alle tue esigenze */
+    transform: translateX(-50%); /* Centra perfettamente */
 }
-.champname{
+
+.champname {
     position: absolute;
     width: 100%;
-    bottom: -50px;
-
+    bottom: 0;
+    text-align: center;
 }
 .scopri{
     width: 300px;
@@ -199,6 +213,9 @@ body{
     background-color: cadetblue;
     font-size: large;
     margin: 20px;
+}
+.selettore:hover{
+    background-color: grey;
 }
 .titolocorisvo{
     font-size: xx-large;

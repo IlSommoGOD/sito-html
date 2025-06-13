@@ -1,6 +1,6 @@
 var click=0;
 function gioca(){
-    var quotes = ["NO!" , "TOCCA UN PO D'ERBA PIUTTOSTO" , "ragazzi perfavore non scaricate i giochini sul computer dela scuola" , "NON PUOI GIOCARE AL LAVORO!" , "LO DICO AL MASA!" , "VAI A LETTO!" , "SEI LICENZIATO!" , "SPEGNI IL COMPUTER!" , "SMETTILA DI GIOCARE AI GIOCHINI CHE NON TI PORTANO A NULLA NELLA VITA E VAI A STUDIARE!", "meglio di no, dai"];
+    var quotes = ["NO!" , "TOCCA UN PO D'ERBA PIUTTOSTO" , "meglio di no, dai" , "ragazzi perfavore non scaricate i giochini sul computer dela scuola" , "NON PUOI GIOCARE AL LAVORO!" , "LO DICO AL MASA!" , "VAI A LETTO!" , "SEI LICENZIATO!" , "SPEGNI IL COMPUTER!" , "SMETTILA DI GIOCARE AI GIOCHINI CHE NON TI PORTANO A NULLA NELLA VITA E VAI A STUDIARE!"];
     tmp = click;
     while(tmp == click)click = Math.floor(Math.random() * quotes.length);
     document.getElementById("gioca").innerHTML = quotes[click];
@@ -10,8 +10,10 @@ function cambiacampione(nomecampione){
     document.getElementById("nome").innerHTML = nomecampione;
     if(nomecampione=="AKALI"){
         document.getElementById("immaginecampione").src = "akali.webp";
-        document.getElementById("descrizione").innerHTML = "Simp queen";
-    }else if(nomecampione=="YASUO"){
+        document.getElementById("descrizione").innerHTML = "l'assassina solitaria";
+    }
+    //altri campioni
+    else if(nomecampione=="YASUO"){
         document.getElementById("immaginecampione").src = "yasuo.webp";
         document.getElementById("descrizione").innerHTML = "0/10 powerspike";
     }else if(nomecampione=="LUX"){

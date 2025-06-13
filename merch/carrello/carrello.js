@@ -44,7 +44,7 @@ function rimuovielemento(indice){
 }
 
 function pagamento(){
-    alert("gay!")
+    alert("acquisto eseguito!")
     svuotacarrello()
 }
 
